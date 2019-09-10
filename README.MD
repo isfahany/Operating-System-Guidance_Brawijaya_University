@@ -29,7 +29,7 @@ make sure to change the *main1* and the *outputA* to another files and directory
 
     for i in range{1..10};do for j in {1..10};do python3 samaChecker.py "outputA/output$i.txt" "outputA/output$j.txt"; done;done
     
-make sure to locate a correct path for *outputA/output$i.txt*
+make sure to locate a correct path for *outputA/output$i.txt*   
 make sure to change the directory path and the checker if you need it.
 
 **Credit**
