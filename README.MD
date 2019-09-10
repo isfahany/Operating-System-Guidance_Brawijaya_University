@@ -32,5 +32,5 @@ make sure to change the *main1* and the *outputA* to another files and directory
 make sure to locate a correct path for *outputA/output$i.txt*   
 make sure to change the directory path and the checker if you need it.
 
-**Credit**
+**Credit**   
 As far as I know, these code(Chapter 4&5) are made by github users that teach about Thread and Lock. I forgot his account. but I will make sure to link his account as soon as I know it
