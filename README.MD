@@ -22,7 +22,7 @@ Chapter 5
 
     for in range{1..10};do ./main1 > ./outputA/"output$i.txt"; done
     
-```.``` means current directory and make sure to create outputA directory.
+```.``` means current directory and make sure to create outputA directory.   
 make sure to change the *main1* and the *outputA* to another files and directory for next task
 
 **How to automate the checker (Bash)**
