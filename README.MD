@@ -20,14 +20,14 @@ Chapter 5
 
 **How to automate the run command and save it as a newfile (Bash)**
 
-    for i in range{1..10};do ./main1 > ./outputA/"output$i.txt"; done
+    for i in {1..10};do ./main1 > ./outputA/"output$i.txt"; done
     
 ```.``` means current directory and make sure to create outputA directory.   
 make sure to change the *main1* and the *outputA* to another files and directory for next task
 
 **How to automate the checker (Bash)**
 
-    for i in range{1..10};do for j in {1..10};do python3 samaChecker.py "outputA/output$i.txt" "outputA/output$j.txt"; done;done
+    for i in {1..10};do for j in {1..10};do python3 samaChecker.py "outputA/output$i.txt" "outputA/output$j.txt"; done;done
     
 make sure to locate a correct path for *outputA/output$i.txt*   
 make sure to change the directory path and the checker if you need it.
